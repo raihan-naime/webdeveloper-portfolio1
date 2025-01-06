@@ -1,0 +1,42 @@
+/* common sheard styles */
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.text-primary{
+    color: #FD6E0A;
+}
+.btn-primary{
+    background: #FD6E0A;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+/* nave related styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title{
+    color: #181818;
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+
+nav  li{
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #474747;
+}
