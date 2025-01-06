@@ -11,6 +11,8 @@ body{
     border: none;
     border-radius: 5px;
     color: white;
+    height: 35px;
+    width: 100px;
 }
 
 /* nave related styles */
@@ -18,6 +20,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 200px;
 }
 
 .nav-title{
@@ -39,4 +42,19 @@ nav  li{
 nav a {
     text-decoration: none;
     color: #474747;
+}
+
+/* header related color */
+.header{
+    background-color: #FFF8F3;
+}
+
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-pic{
+    height: 676px;
+    width: 584px;
 }
