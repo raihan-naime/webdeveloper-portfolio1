@@ -99,6 +99,9 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+main section{
+    margin-top: 130px;
+}
 /* about section styles */
 .about{
     padding: 130px;
@@ -117,6 +120,29 @@ main{
     text-align: center;
 }
 
+/* what i do related styles */
+
 #what-i-do-description{
     padding: 30px 150px;
+}
+
+.skill-container{
+    display: flex;
+    gap: 30px;
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    background: #ffffff; 
+}
+.skill-description{
+    color: #757575;
+}
+
+/* Resume section styles */
+
+.resume-column-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
 }
